@@ -1,3 +1,21 @@
+/* roboto-regular - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v30-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-700 - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/roboto-v30-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v30-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
 *{
     box-sizing: border-box;
     margin: 0;
@@ -11,11 +29,48 @@
     margin: 0 auto;
     padding: 0 20px;
 }
+body{
+    font-family: "Roboto", sans-serif;
+}
 
 /* Nurillo Start */
-
-
-
+.site-header{
+    padding: 30px 0 85px 0;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__list{
+    display: flex;
+    align-items: center;
+}
+.header__item + .header__item{
+    margin-left: 30px;
+}
+.header__item-link{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    color: #333333;
+}
+.header__input{
+    padding-bottom: 6px;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    outline: none;
+    color: #666666;
+}
+.header__input:focus{
+    box-shadow: 0 0 2px 2px lightblue;
+    border: none;
+}
 /* Nurillo End */
 
 /* --------------------------------------------------- */
