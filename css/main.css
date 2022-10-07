@@ -98,6 +98,67 @@ body{
 /* --------------------------------------------------- */
 
 /* Bilol Start */
+.Bilol_wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Bilol_content{
+    width: 490px;
+    padding: 91px 0 185px 0;
+}
+
+.Bilol_title{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 120%;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    padding-bottom: 30px;
+}
+
+.Bilol_text{
+    position: relative;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #777777;
+    flex: none;
+    order: 1;
+    margin-bottom: 30px;
+    padding-left: 42px;
+}
+
+.Bilol_text::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 3px;
+    background-color: #777777;
+}
+
+
+.Bilol_link{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    background: #EA625C;
+    padding: 12px 38.5px;
+}
+
+.Bilol_link:hover{
+    background: #933732;
+}
+
 
 /* Bilol End */
 
