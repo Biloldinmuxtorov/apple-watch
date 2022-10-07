@@ -6,6 +6,14 @@
   text-decoration: none;
   list-style: none;
 
+}
+
+.container {
+  width: 1150px;
+  margin: 0 auto;
+  padding: 0 20px;
+
+
 /* roboto-regular - latin */
 @font-face {
     font-family: 'Roboto';
@@ -40,9 +48,11 @@
 }
 body{
     font-family: "Roboto", sans-serif;
+
 }
 
 /* Nurillo Start */
+
 
 .site-header{
     padding: 30px 0 85px 0;
@@ -82,6 +92,7 @@ body{
     border: none;
 }
 
+
 /* Nurillo End */
 
 /* --------------------------------------------------- */
@@ -97,6 +108,7 @@ body{
   padding-bottom: 140px;
   background: #fff;
 }
+
 
 .second-list {
   display: grid;
@@ -160,6 +172,63 @@ body{
 /* --------------------------------------------------- */
 
 /* Sardor Start */
+
+.Sardor {
+  margin-bottom: 70px;
+}
+.nike {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nike__content {
+  max-width: 450px;
+}
+.nike__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 120%;
+  color: #000000;
+  margin-bottom: 30px;
+}
+.nike__text {
+  position: relative;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #777777;
+  display: flex;
+  margin-bottom: 30px;
+  padding-left: 40px;
+}
+.nike__text::before {
+  position: absolute;
+  content: "";
+  width: 3px;
+  height: 96px;
+  background-color: #888888;
+  left: 0;
+}
+.nike__link {
+  padding: 12px 90px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #ea625c;
+  display: inline-block;
+}
+
 
 /* Sardor End */
 
